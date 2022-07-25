@@ -1,0 +1,305 @@
+body{
+    background-color: #8332323d;
+}
+h2{
+ 
+    text-align: center;
+    font-size: 33px;
+    color: rgb(2 2 71);
+}
+.any{
+    text-align: center;
+    font-size: 18px;
+    margin: -8px 0px 0px 0px;
+}
+.contect{
+    display: flex;
+    margin-top: 60px;
+}
+.fill{
+    border: 1px solid #3d1f91;
+    width: 450px;
+    margin-left: 70px;
+    height: 400px;
+    background-color: #3d1f91;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.fill h3{
+    margin-left: 30px;
+    font-size: 28px;
+    color: #fff;
+}
+.fill p{
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 70px;
+    font-size: 18px;
+    margin-top: -10px;
+}
+.phone{
+    position: relative;
+    top: 25px;
+    line-height: 45px;
+    left: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.phone1{
+    position: relative;
+    top: 25px;
+    line-height: 45px;
+    left: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.phone2{
+    position: relative;
+    top: 25px;
+    line-height: 45px;
+    left: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.icofont-phone{
+font-size: 20px;
+color: orangered;
+margin-right: 10px;
+}
+.icofont-email{
+    font-size: 20px;
+    color: orangered;
+    margin-right: 10px;
+}
+.icofont-location-pin{
+    font-size: 20px;
+    color: orangered;
+    margin-right: 10px;
+}
+.face1{
+    border: 1px solid #7f53f8;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: #7f53f8;
+    position: relative;
+    left: 326px;
+    top: -144px;
+}
+.face{
+    border: 1px solid #fa959d;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: relative;
+    left: 344px;
+    top: 25px;
+    background-color: #fa959d;
+    overflow: scroll;
+}
+.icofont-facebook{
+    position: relative;
+    top: -137px;
+    left: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+.icofont-instagram{
+    position: relative;
+    top: -137px;
+    left: 60px;
+    color: #fff;
+    font-size: 20px;
+}
+.icofont-brand-whatsapp{
+    position: relative;
+    top: -137px;
+    left: 90px;
+    color: #fff;
+    font-size: 20px;
+}
+.icofont-linkedin{
+    position: relative;
+    top: -137px;
+    left: 120px;
+    color: #fff;
+    font-size: 20px;
+}
+#webside{
+    border: 1px solid white;
+    width: 700px;
+    background-color: rgb(255 255 255);
+    overflow: hidden;
+    border-radius: 20px;
+}
+.name{
+display: flex;
+margin-top: 10px;
+}
+.name1{
+    display: flex;
+   
+}
+.name label{
+    margin: 2px 197px 0px 38px;
+    font-size: 20px;
+    color:#000000b5;
+}
+.name input{
+    /* position: relative;
+    top: 22px;
+    left: 16px;
+    padding: 29px 97px 0px 0px;
+    border: none;
+    border-bottom: 1px solid;
+    color: #1035eb;
+    width: 200px; */
+}
+.name2 {
+    margin: 2px -100px 0px 43px;
+    font-size: 20px;
+    color:#000000b5;
+}
+.name3{
+    margin-left: 94px;
+    font-size: 20px;
+    color:#000000b5;
+}
+#arun{
+    position: relative;
+    left: 44px;
+    padding: 32px 97px 0px 0px;
+    width: 167px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    top: -4;
+}
+#arun1{
+    position: relative;
+    left: 94px;
+    padding: 32px 97px 0px 0px;
+    width: 178px;
+    border: none;
+    border-bottom: 1px solid; 
+    outline: none;
+    top: -4;
+}
+h4{
+    margin: -2px 0px 10px 45px;
+    font-size: 20px;
+}
+span{
+    margin-left: 55px;
+}
+.design1{
+    border: 1px solid;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+.radios input{
+    margin-left: 50px;
+}
+.message label{
+    margin-left: 43px;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    color:#000000b5;
+}
+.message #message{
+    margin-left: 43px;
+    width: 602px;
+    margin-top: 9px;
+    padding: 19px 0px 22px 0px;
+    border: none;
+    border-bottom: 1px solid ;
+    outline: none;
+}
+#button{
+    margin: 19px 0px 0px 491px;
+    font-size: 15px;
+    padding: 11px 24px;
+    background-color: #2c0560;
+    border: 1px solid #2c0560;
+    color: #fff;
+    border-radius: 10px;
+}
+.first input{
+    position: relative;
+    left: 38px;
+    padding: 29px 97px 0px 0px;
+    border: none;
+    border-bottom: 1px solid;
+    width: 170px;
+    outline: none;
+    top: -4;
+}
+.second input{
+    position: relative;
+    left: 40px;
+    padding: 29px 97px 0px 0px;
+    border: none;
+    border-bottom: 1px solid;
+    width: 170px;
+    outline: none;
+    top: -4;
+}
+#p1{
+    margin: -16px 0px 0px 39px;
+    color: red;
+    position: absolute;
+}
+#p2{
+    color: red;
+    margin-left: 50px;
+    margin-top: 10px;
+    position: absolute;
+}
+#p3{
+    margin: 0px 0px 0px 68px;
+    color: red;
+    position: absolute;
+}
+#p4{
+    margin: 0px 0px 0px 118px;
+    color: red;
+    position: absolute;
+}
+#p5{
+    margin: 0px 0px 0px 68px;
+    color: red;
+    position: absolute;
+}
+form{
+    width: 675px;
+    height: 393px;
+}
+i:hover{
+    background-color: #fa959d;
+    border-radius: 50px;
+    /* height: 20px;
+    width: 20px; */
+    padding: 10px ;
+
+}
+input:hover{
+    color: #2c0560;
+    border-bottom: 2px solid;
+}
+#message:hover{
+    color: #2c0560;
+    border-bottom: 2px solid;
+}
+#arun1:hover{
+    color: #2c0560;
+    border-bottom: 2px solid;
+}
+#arun:hover{
+    color: #2c0560;
+    border-bottom: 2px solid;
+}
