@@ -5,35 +5,6 @@ var page4 = document.getElementById('p4');
 var page5 = document.getElementById('p5');
 
 
-// function validate(){
-//     var  first = document.getElementById('firstnsme');
-    
-//     if(first.value == ''){
-//     page1.innerHTML ="name is not found";
-//     console.log(page1)
-//     console.log(10);
-//     // return false;
-  
-//     }
-// }
-
-    
-// }
-// function validate() {
-// //   let x = document.forms["myForm"]["fname"].value;
-//   if (document.myform.first.value == "") {
-//     console.log("Name must be filled out!");
-//     document.myform.name.focus();
-//     return false;
-//   }
-// }
-// function validate() {
-//     var x = document.getElementById("sand").value;
-//     // document.getElementById(").innerHTML = x;
-//     x.innerHTML="arun";
-//     console.log(x)
-//   }
-
  var button =document.getElementById('button');
 
  function add(){
@@ -44,6 +15,10 @@ var page5 = document.getElementById('p5');
       if(first == ''){
       page1.innerText ="*name is not found*";
     console.log(add);
+}
+else{
+  page1.innerText =''
+
 }
       if(first.length <= 6 +"letter"){
         page1.innerText ="*please enter 6 charecter*";
@@ -57,18 +32,37 @@ if(second == ''){
   }
 
  }
+ else{
+  page2.innerText =''
+
+}
 
  var mail = document.getElementById('arun').value;
+if(mail == ''){
+  page3.innerText ="*vaild E-mail id*"
 
-if(mail.length <= 10 + "letter"){
+}
+else{
+  page3.innerText =''
+
+}
+if(mail.length <=10 + "letter"){
   page3.innerText ="*e-mail is not required*"
+
+}
+else{
+  page3.innerText =''
 
 }
 
 var phone = document.getElementById('arun1').value;
 
 if(phone ==''){
-  page4.innerText ="*phone number is not valid*"
+  page4.innerText ="*please vaild phone number*"
+
+}
+else{
+  page4.innerText =''
 
 }
 
@@ -78,9 +72,19 @@ if(message == ''){
   page5.innerText ="*enter a message*"
 
 }
-if(message.length <= 10 +'word'){
+else{
+  page5.innerText =""
+}
+if(message.length <=10 +'word'){
   page5.innerText ="*enter 10 words*"
 
 }
-
+var boxs =document.querySelectorAll('.cheak');
+boxs.forEach(function(cheakbox){
+  cheakbox.addEventListener('click',function(){
+      // console.log(this);
+      var brandname =this.value;
+      console.log(brandname)
+  })
+})
 }
