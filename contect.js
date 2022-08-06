@@ -88,3 +88,13 @@ boxs.forEach(function(cheakbox){
   })
 })
 }
+var boxs =document.querySelectorAll('.cheak');
+boxs.forEach(function(cheakbox){
+  cheakbox.addEventListener('click',function(){
+      // console.log(this);
+      var brandname =this.value;
+      console.log(brandname)
+  })
+})
+}
+
