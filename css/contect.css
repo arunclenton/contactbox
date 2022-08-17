@@ -22,7 +22,7 @@ h2{
     margin-left: 70px;
     height: 400px;
     background-color: #3d1f91;
-    border-radius: 20px;
+    border-radius: 20px 0px 0px 20px;
     overflow: hidden;
 }
 .fill h3{
@@ -133,7 +133,8 @@ margin-right: 10px;
     width: 700px;
     background-color: rgb(255 255 255);
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 0px 20px 20px 0px;
+    height: 400px;
 }
 .name{
 display: flex;

@@ -79,12 +79,12 @@ if(message.length <=10 +'word'){
   page5.innerText ="*enter 10 words*"
 
 }
-var boxs =document.querySelectorAll('.cheak');
-boxs.forEach(function(cheakbox){
+var arun =document.querySelectorAll('.cheak');
+arun.forEach(function(cheakbox){
   cheakbox.addEventListener('click',function(){
       // console.log(this);
       var brandname =this.value;
-      console.log(brandname)
+      // console.log(brandname)
   })
 })
 }
